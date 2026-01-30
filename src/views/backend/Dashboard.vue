@@ -1,13 +1,17 @@
 <template>
   <v-container fluid>
     <v-row>
+      <v-col cols="12" sm="12" md="12">
+        <h1>Dashboard</h1>
+        <p class="text-disabled">Welcome back! Here's what's happening today, January 30, 2026</p>
+      </v-col>
       <v-col cols="12" sm="6" md="3">
         <v-card elevation="2" class="rounded-lg pa-4">
           <div class="d-flex align-center justify-space-between">
             <div>
-              <p class="text-subtitle-2 text-grey-darken-1 mb-1">Total Sales</p>
-              <h2 class="text-h5 font-weight-bold">$24,500</h2>
-              <span class="text-caption text-success font-weight-bold">+12% from last month</span>
+              <p class="text-subtitle-2 text-grey-darken-1 mb-1">Total Employees</p>
+              <h2 class="text-h5 font-weight-bold">4</h2>
+              <span class="text-caption text-success font-weight-bold">5 total</span>
             </div>
             <v-avatar color="blue-lighten-5" size="56">
               <v-icon color="blue" size="32">mdi-cart-outline</v-icon>
