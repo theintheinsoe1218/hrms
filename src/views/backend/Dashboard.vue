@@ -14,7 +14,7 @@
               <span class="text-caption text-success font-weight-bold">5 total</span>
             </div>
             <v-avatar color="blue-lighten-5" size="56">
-              <v-icon color="blue" size="32">mdi-cart-outline</v-icon>
+              <v-icon color="blue" size="32">mdi-account-multiple-outline</v-icon>
             </v-avatar>
           </div>
         </v-card>
@@ -24,12 +24,12 @@
         <v-card elevation="2" class="rounded-lg pa-4">
           <div class="d-flex align-center justify-space-between">
             <div>
-              <p class="text-subtitle-2 text-grey-darken-1 mb-1">Total Purchase</p>
-              <h2 class="text-h5 font-weight-bold">$12,800</h2>
-              <span class="text-caption text-error font-weight-bold">-5% from last month</span>
+              <p class="text-subtitle-2 text-grey-darken-1 mb-1">Present Today</p>
+              <h2 class="text-h5 font-weight-bold">0</h2>
+              <span class="text-caption text-error font-weight-bold">of 4 active</span>
             </div>
             <v-avatar color="orange-lighten-5" size="56">
-              <v-icon color="orange" size="32">mdi-cart-arrow-up</v-icon>
+              <v-icon color="orange" size="32">mdi-calendar-clock</v-icon>
             </v-avatar>
           </div>
         </v-card>
@@ -39,12 +39,12 @@
         <v-card elevation="2" class="rounded-lg pa-4">
           <div class="d-flex align-center justify-space-between">
             <div>
-              <p class="text-subtitle-2 text-grey-darken-1 mb-1">Customers</p>
-              <h2 class="text-h5 font-weight-bold">1,240</h2>
-              <span class="text-caption text-grey font-weight-bold">Total active users</span>
+              <p class="text-subtitle-2 text-grey-darken-1 mb-1">Pending Leaves</p>
+              <h2 class="text-h5 font-weight-bold">1</h2>
+              <span class="text-caption text-grey font-weight-bold">Awaiting approval</span>
             </div>
             <v-avatar color="purple-lighten-5" size="56">
-              <v-icon color="purple" size="32">mdi-account-group-outline</v-icon>
+              <v-icon color="purple" size="32">mdi-calendar-month-outline</v-icon>
             </v-avatar>
           </div>
         </v-card>
@@ -54,12 +54,12 @@
         <v-card elevation="2" class="rounded-lg pa-4">
           <div class="d-flex align-center justify-space-between">
             <div>
-              <p class="text-subtitle-2 text-grey-darken-1 mb-1">Reports Generated</p>
-              <h2 class="text-h5 font-weight-bold">85</h2>
-              <span class="text-caption text-info font-weight-bold">Last 30 days</span>
+              <p class="text-subtitle-2 text-grey-darken-1 mb-1">Open Positions</p>
+              <h2 class="text-h5 font-weight-bold">2</h2>
+              <span class="text-caption text-info font-weight-bold">Active job postings </span>
             </div>
             <v-avatar color="teal-lighten-5" size="56">
-              <v-icon color="teal" size="32">mdi-file-chart-outline</v-icon>
+              <v-icon color="teal" size="32">mdi-briefcase-outline</v-icon>
             </v-avatar>
           </div>
         </v-card>

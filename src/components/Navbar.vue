@@ -94,7 +94,7 @@ const drawer = ref(!isMobile.value)
 const menus = [
   { title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/' },
 
-  { title: 'Attendance', icon: 'mdi-account-group', to: '/attendance' },
+  { title: 'Attendance', icon: 'mdi-account-multiple-outline', to: '/attendance' },
   { title: 'Leave Management', icon: 'mdi-file-chart', to: '/leave' },
   // { title: 'Settings', icon: 'mdi-cog', to: '/settings' },
   {
