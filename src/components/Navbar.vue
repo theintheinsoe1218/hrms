@@ -94,15 +94,17 @@ const drawer = ref(!isMobile.value)
 const menus = [
   { title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/' },
 
-  { title: 'Attendance', icon: 'mdi-account-multiple-outline', to: '/attendance' },
-  { title: 'Leave Management', icon: 'mdi-file-chart', to: '/leave' },
-  // { title: 'Settings', icon: 'mdi-cog', to: '/settings' },
+  { title: 'Attendance', icon: 'mdi-calendar-clock-outline', to: '/attendance' },
+  { title: 'Leave Management', icon: 'mdi-calendar-range-outline', to: '/leave' },
+  { title: 'Overtime', icon: 'mdi-clock-outline', to: '/overtime' },
+  { title: 'Payroll', icon: 'mdi-wallet-outline', to: '/payroll' },
   {
     title: 'Settings',
     icon: 'mdi-cog',
     subItems: [
-      { title: 'Order', to: '/purchase/order' },
-      { title: 'Payment', to: '/purchase/payment' },
+      { title: 'Employees', icon: 'mdi-account-group-outline', to: '/setting/employee' },
+      { title: 'Department', icon: 'mdi-sitemap-outline', to: '/setting/department' },
+      { title: 'User', icon: 'mdi-account-multiple-outline', to: '/setting/useraccount' },
     ],
   },
 ]
@@ -129,7 +131,7 @@ watch(isMobile, (val) => {
 
 .v-list-group--active > .v-list-item {
   /* color: #0284c7 !important; */
-  background: linear-gradient(135deg, #7c3aed, #3b82f6) !important;
+  background: linear-gradient(135deg, #3b82f6, #7c3aed) !important;
   color: #ffffff !important;
   border-radius: 12px;
 }
