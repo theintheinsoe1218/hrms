@@ -130,7 +130,6 @@ watch(isMobile, (val) => {
 }
 
 .v-list-group--active > .v-list-item {
-  /* color: #0284c7 !important; */
   background: linear-gradient(135deg, #3b82f6, #7c3aed) !important;
   color: #ffffff !important;
   border-radius: 12px;
